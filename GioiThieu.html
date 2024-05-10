@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nhóm 2</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="TrangChu.css">
+	<link rel="stylesheet" type="text/css" href="styleCH.css">
+</head>
+<body>
+
+	<div id="wrapper">
+		<div id="header">
+			<div class="container">
+				<img src="Anh/logo.png" alt="Logo" title="Logo" class="img">
+				<ul class="menu clearfix">
+					<li><a href="index.html">Trang chủ</a></li>
+					<li id="gt"><a href="GioiThieu.html">Giới thiệu</a></li>
+					<li><a href="CuaHang.html">Cửa hàng</a>
+						<ul>
+							<li><a href="GiayNu.html">Giày nữ</a>
+								<ul>
+									<li class="c3"><a href="Giaybupbe.html">Giày búp bê</a></li>
+									<li class="c3"><a href="Giaycaogot.html">Giày cao gót</a></li>
+									<li class="c3"><a href="Giaythethao.html">Giày thể thao</a></li>
+								</ul>
+							</li>
+							<li><a href="GiayNam.html">Giày nam</a></li>
+							<li><a href="PhuKien.html">Các phụ kiện khác</a></li>
+						</ul>
+					</li>
+					<li><a href="TinTuc.html">Tin tức</a></li>
+					<li><a href="LienHe.html">Liên hệ</a></li>
+					<!-- <li><a href="DangNhap.html"><img src="Anh/login.png" ></a></li> -->
+            		<li><a id="cart"><img src="Anh/giohang.png"></a></li>
+                    
+                    <!--Gio Hang-->
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Giỏ Hàng</h5>
+                                <!-- dấu x -->
+                                <span class="close">&times;</span>
+                            </div>
+                            <div class="modal-body">
+                                <div class="cart-row top">
+                                    <span class="cart-item cart-header cart-column ">Sản Phẩm</span>
+                                    <span class="cart-price cart-header cart-column">Giá</span>
+                                    <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                                </div>
+                                <div class="cart-items">
+
+                                </div>
+                                <div class="cart-total subtop">
+                                    <strong class="cart-total-title">Tổng Cộng:</strong>
+                                    <span class="cart-total-price">0VNĐ</span>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                                <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                            </div>
+                        </div>
+                    </div>
+				</ul>
+			</div>
+		</div>
+		<!-- content -->
+		<div id="wp_content">
+			<div id="content-con" style="background-color: #A4A4A4">
+				<!--  background-image: url(download.jpg);-->
+				<div id="content-con1">
+					<h2 style="text-align: center">Giới thiệu</h2>
+					<p style="text-align: center">TRANG CHỦ / GIỚI THIỆU</p>
+				</div>
+			</div>
+			<div id="content-con2">
+				<div id="phong-chu">
+					<font class="font" size="5" color="black">M</font>
+					<font class="font" size="5" color="black">O</font>
+					<font class="font" size="5" color="black">N</font>
+					<font class="font" size="5" color="black">A</font>
+					<font class="font" size="5" color="red">S</font>
+					<font class="font" size="5" color="red">H</font>
+					<font class="font" size="5" color="red">O</font>
+					<font class="font" size="5" color="red">E</font>
+					<font class="font" size="5" color="red">S</font><br>
+					<p>&nbsp &nbsp &nbsp Cá tính hơn - Sành điệu hơn - Yêu đời hơn</p>
+				</div>
+				<div>
+					<iframe src="Video_gioi_thieu.mp4" width="100%" height="900px"></iframe>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+
+		<!-- footer -->
+		<div id="footer">
+			<div class="row-left" style="width: 33%; float: left;margin-left: 30px">
+				<div class="row-left-child" >
+					<h5>LIÊN HỆ</h5>
+					<p>Chúng tôi chuyên cung cấp các sản phẩm chính hãng chất lượng tốt đạt chuẩn quốc tế</p>
+					<div>
+						<div style=" float: left; margin-right: 20px;"><img src="Anh/vi-tri.png"></div>
+						<div><p>224 Tân Lập, Đan Phượng, Hà Nội</p></div>
+					</div>
+				</div>
+				<div>
+					<div style="float: left; margin-right: 20px"><img src="Anh/dien-thoai.png"></div>
+					<div>0338687090</div>
+				</div>
+			</div>
+			<div style="width: 33%; float: left; margin-left: 114px;">
+				<h5>HỖ TRỢ KHÁCH HÀNG</h5>
+				<a href="DangKy.html" style="text-decoration: none; color: #fff">Tài khoản</a><br><br>
+				<a href="GioHang.html" style="text-decoration: none; color: #fff">Giỏ hàng</a>
+				
+				
+			</div>
+			<div style="width: 23%; float: left;">
+				<h5>DANH SÁCH MENU</h5>
+				<a href="index.html" style="text-decoration: none; color: #fff">Trang chủ</a><br>
+				<a href="GioiThieu.html" style="text-decoration: none; color: #fff">Giới thiệu</a><br>
+				<a href="CuaHang.html" style="text-decoration: none; color: #fff">Cửa hàng</a><br>
+				<a href="TinTuc.html" style="text-decoration: none; color: #fff">Tin tức</a><br>
+				<a href="LienHe.html" style="text-decoration: none; color: #fff">Liên hệ</a>
+				
+			</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="cuahang.js"></script>
+</body>
+</html>
